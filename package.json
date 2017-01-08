@@ -1,0 +1,47 @@
+{
+  "name": "mural-todo",
+  "version": "1.0.0",
+  "description": "Obligatory todo list app using the Mural pieces",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r babel-core/register -r dotenv/config ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigspaeth/mural-todo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigspaeth/mural-todo/issues"
+  },
+  "homepage": "https://github.com/craigspaeth/mural-todo#readme",
+  "babel": {
+    "presets": [
+      "latest"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  },
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-latest": "^6.16.0",
+    "babelify": "^7.3.0",
+    "brfs-babel": "^1.0.0",
+    "dotenv": "^4.0.0",
+    "envify": "^4.0.0",
+    "hotglue": "0.0.9",
+    "koa": "^2.0.0-alpha.7",
+    "lodash": "^4.17.4",
+    "lokka": "^1.7.0",
+    "lokka-transport-http": "^1.6.1",
+    "mojol": "0.0.5",
+    "reeeset": "0.0.8",
+    "unikoa": "0.0.1",
+    "unikoa-react-render": "0.0.8",
+    "universal-tree": "0.0.2",
+    "veact": "0.0.6"
+  }
+}
